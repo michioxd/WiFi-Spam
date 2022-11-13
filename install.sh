@@ -1,6 +1,6 @@
 #!/bin/sh
-wget https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2018.1_all.deb
-apt install ./kali-archive-keyring_2018.1_all.deb
+wget https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
+apt install ./kali-archive-keyring_2022.1_all.deb
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" >> /etc/apt/sources.list
 echo "deb http://repo.kali.org/kali kali-bleeding-edge main' >> /etc/apt/sources.list"
 apt-get update  
